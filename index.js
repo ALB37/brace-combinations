@@ -1,6 +1,6 @@
 const validCombinations = num => {
 
-  let combinations = [];
+  let combinations = new Set();
 
   const _helper = (index, openNum, closedNum, string) => {
     if (index < 2 * num){
@@ -11,7 +11,7 @@ const validCombinations = num => {
         _helper(index + 1, openNum, closedNum - 1, string + '}');
       }
     } else {
-      combinations.push(string);
+      combinations.add(string);
     }
 
   };
