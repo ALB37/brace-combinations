@@ -9,5 +9,5 @@ validCombinations = require('./index.js');
 validCombinations(3);
 
 //returns:
-//[ {{{}}}, {{}{}}, {{}}{}, {}{{}}, {}{}{} ]
+//Set { {{{}}}, {{}{}}, {{}}{}, {}{{}}, {}{}{} }
 ```
