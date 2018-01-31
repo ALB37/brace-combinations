@@ -5,12 +5,9 @@ Implement an algorithm to print all valid (i.e.properly opened and closed) combi
 
 ### Example:
 ```javascript
-Input: 3
+validCombinations = require('./index.js');
+validCombinations(3);
 
-Output:
-{{{}}}
-{{}{}}
-{{}}{}
-{}{{}}
-{}{}{}
+//returns:
+//[ {{{}}}, {{}{}}, {{}}{}, {}{{}}, {}{}{} ]
 ```

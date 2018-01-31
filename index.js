@@ -19,6 +19,4 @@ const validCombinations = num => {
   return combinations;
 };
 
-
-
-console.log(validCombinations(3));
+module.exports = validCombinations;
