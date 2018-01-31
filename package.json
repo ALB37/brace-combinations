@@ -1,0 +1,27 @@
+{
+  "name": "brace-combinations",
+  "version": "1.0.0",
+  "description": "brace-combinations problem solution algorithm",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.16.0",
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest -i --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALB37/brace-combinations.git"
+  },
+  "keywords": [
+    "algorithm"
+  ],
+  "author": "Andrew Bloom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALB37/brace-combinations/issues"
+  },
+  "homepage": "https://github.com/ALB37/brace-combinations#readme"
+}
